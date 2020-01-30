@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - CameraController
     - PlayerController
     - escape
+    - obstacle
     - rotator
     Unity.2D.Tilemap.Editor.dll:
     - UnityEditor.Tilemaps.GridPaintingState
@@ -47,21 +48,23 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 9674}
     - Class: 114
-      Script: {instanceID: 9836}
+      Script: {instanceID: 9694}
     - Class: 114
-      Script: {instanceID: 10146}
+      Script: {instanceID: 9838}
     - Class: 114
-      Script: {instanceID: 10284}
+      Script: {instanceID: 10148}
     - Class: 114
-      Script: {instanceID: 10602}
+      Script: {instanceID: 10286}
     - Class: 114
-      Script: {instanceID: 10896}
+      Script: {instanceID: 10388}
     - Class: 114
-      Script: {instanceID: 11132}
+      Script: {instanceID: 10606}
     - Class: 114
-      Script: {instanceID: 11504}
+      Script: {instanceID: 10900}
     - Class: 114
-      Script: {instanceID: 12958}
+      Script: {instanceID: 11136}
+    - Class: 114
+      Script: {instanceID: 11508}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -85,6 +88,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
     className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: escape
   - hash:
       serializedVersion: 2
       Hash: 3c08375166df118bd1801438fc36b92f
@@ -285,6 +294,12 @@ ScriptsOnlyBuild:
     className: Selectable
   - hash:
       serializedVersion: 2
+      Hash: e08dc097b830ae769e9cdd9b04e903ac
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: obstacle
+  - hash:
+      serializedVersion: 2
       Hash: b3ab2106268377ffe25dd18ac23dca28
     assemblyName: Unity.TextMeshPro.dll
     namespaceName: TMPro
@@ -315,7 +330,7 @@ ScriptsOnlyBuild:
     className: RemoteTestResultSender
   - hash:
       serializedVersion: 2
-      Hash: ba7d017e3171d1970cbced635be3298c
+      Hash: 31bf5b8e2aca77c2ce689e7f6e11f7b4
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlayerController
@@ -535,14 +550,8 @@ ScriptsOnlyBuild:
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
     className: PlayableTrack
-  - hash:
-      serializedVersion: 2
-      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: escape
   platform: 2
   scenePathNames:
   - Assets/Scenes/main.unity
-  playerPath: /Users/menard49/Library/Mobile Documents/com~apple~CloudDocs/Unity Stuff/UFO
-    Game/UFO Game/builds_mac1.app
+  playerPath: /Users/menard49/Library/Mobile Documents/com~apple~CloudDocs/Git Hub/Tutorial-1-/UFO
+    Game/builds_mac2.app
